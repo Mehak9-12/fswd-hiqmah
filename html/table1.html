@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making table</title>
+</head>
+<style>
+    table{
+        border: 1px solid black;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 30px;
+        
+    }
+    th,td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    th{
+        color: blue;
+    }
+</style>
+<body>
+    <h2> Employee Directory</h2>
+    <table>
+     <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Occupation</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td>Faisal</td>
+            <td>25</td>
+            <td > Level 4 Manager</td>
+        </tr>
+        <tr>
+            <td>Mehak</td>
+            <td>24</td>
+            <td>Associate</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Tanzeela Farooq</td>
+            <td>25</td>
+            <td>Representative</td>
+        </tr>
+
+     </tbody>
+    </table>
+</body>
+</html>
